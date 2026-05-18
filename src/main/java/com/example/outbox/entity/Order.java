@@ -6,7 +6,7 @@ import lombok.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "ORDERS")
+@Table(name = "orders")
 @Getter
 @Setter
 @NoArgsConstructor
@@ -17,10 +17,10 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "CUSTOMER_EMAIL")
+    @Column(name = "customer_email")
     private String customerEmail;
 
-    @Column(name = "TOTAL_AMOUNT")
+    @Column(name = "total_amount")
     private BigDecimal totalAmount;
     
     private String status;
