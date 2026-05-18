@@ -1,0 +1,48 @@
+# Java
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDEs
+.settings/
+.classpath
+.project
+.factorypath
+.idea/
+*.iml
+*.iws
+.vscode/
+.nbworkspace
+.classpath
+.project
+
+# Spring Boot
+logs/
+*.log.gz
+
+# Database / Liquibase
+/db/changelog/*.bak
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Local Environment
+.env
+application-local.properties
